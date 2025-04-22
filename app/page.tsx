@@ -137,7 +137,7 @@ export default function Home() {
       <section id="about" className="py-20 bg-gray-50 dark:bg-slate-950/50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">
-            <span className="text-teal-600 dark:text-teal-400">About</span> Me
+            <span className="text-teal-600 dark:text-teal-400">Sobre</span> Mí
           </h2>
           <About />
         </div>
@@ -147,8 +147,8 @@ export default function Home() {
       <section id="projects" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">
-            <span className="text-teal-600 dark:text-teal-400">My</span>{" "}
-            Projects
+            <span className="text-teal-600 dark:text-teal-400">Mis</span>{" "}
+            Proyectos
           </h2>
           <Projects />
         </div>
@@ -161,8 +161,8 @@ export default function Home() {
       >
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">
-            <span className="text-teal-600 dark:text-teal-400">Work</span>{" "}
-            Experience
+            <span className="text-teal-600 dark:text-teal-400">Experiencia de</span>{" "}
+            Trabajo
           </h2>
           <Experience />
         </div>
@@ -172,7 +172,7 @@ export default function Home() {
       <section id="skills" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">
-            <span className="text-teal-600 dark:text-teal-400">My</span> Skills
+            <span className="text-teal-600 dark:text-teal-400">Mis</span> Habilidades
           </h2>
           <Skills />
         </div>
@@ -182,7 +182,7 @@ export default function Home() {
       <section id="contact" className="py-20 bg-gray-50 dark:bg-slate-950/50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">
-            <span className="text-teal-600 dark:text-teal-400">Contact</span> Me
+            <span className="text-teal-600 dark:text-teal-400">Contáctame</span> 
           </h2>
           <div className="max-w-3xl mx-auto">
             <div className="grid md:grid-cols-2 gap-10">
