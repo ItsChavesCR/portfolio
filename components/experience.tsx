@@ -4,29 +4,14 @@ import { Badge } from "@/components/ui/badge"
 export default function Experience() {
   const experiences = [
     {
-      position: "Senior Frontend Developer",
-      company: "Tech Solutions Inc.",
-      period: "2021 - Presente",
+      position: "Full Stack Developer ",
+      company: "Centro Agrícola Cantonal de Puntarenas.",
+      period: "2024 - Presente",
       description:
-        "Desarrollo de aplicaciones web utilizando React, Next.js y TailwindCSS. Implementación de interfaces de usuario modernas y optimización de rendimiento.",
-      technologies: ["React", "Next.js", "TypeScript", "TailwindCSS"],
+        "Desarrollo de un sistema de gestión para afiliados, ganadería y PSA con landing page, usando React, TailwindCSS, TypeScript, y colaboración en backend con NestJS y APIs REST bajo la metodología ágil Azure DevOps.",
+      technologies: ["React", "Next.js", "TypeScript", "TailwindCSS", "NestJS", "MySQL"],
     },
-    {
-      position: "Frontend Developer",
-      company: "Digital Innovations",
-      period: "2019 - 2021",
-      description:
-        "Desarrollo de interfaces de usuario utilizando React y frameworks CSS modernos. Implementación de diseños responsivos y accesibles.",
-      technologies: ["React", "SASS", "JavaScript", "HTML/CSS"],
-    },
-    {
-      position: "Web Developer",
-      company: "Creative Agency",
-      period: "2017 - 2019",
-      description:
-        "Desarrollo de sitios web responsivos para clientes de diversos sectores. Implementación de diseños personalizados y optimización SEO.",
-      technologies: ["HTML/CSS", "JavaScript", "WordPress", "jQuery"],
-    },
+   
   ]
 
   return (
