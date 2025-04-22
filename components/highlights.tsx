@@ -64,12 +64,12 @@ export default function Highlights() {
       {/* Elemento pequeño - Rating */}
       <div className="col-span-2 bg-gradient-to-br from-slate-900/90 to-slate-800/50 rounded-xl p-2 md:p-3 flex flex-col justify-between border border-slate-700/50 hover:border-teal-400/50 transition-all group">
         <div className="flex justify-between items-start">
-          <h3 className="text-xs md:text-sm font-bold text-slate-200">Rating</h3>
+          <h3 className="text-xs md:text-sm font-bold text-slate-200">En construcción</h3>
           <Star className="text-teal-400 w-3 h-3 md:w-4 md:h-4 group-hover:scale-110 transition-transform" />
         </div>
         <div className="flex items-center">
-          <span className="text-xl md:text-2xl font-bold text-white">4.9</span>
-          <span className="text-xs text-slate-300 ml-1">/5</span>
+          <span className="text-xl md:text-2xl font-bold text-white"></span>
+          <span className="text-xs text-slate-300 ml-1"></span>
         </div>
       </div>
 
