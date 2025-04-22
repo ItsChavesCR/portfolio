@@ -20,7 +20,7 @@ export default function Projects() {
       description:
         "Plataforma para reservas de funciones teatrales que permite a los usuarios explorar obras, seleccionar asientos y reservar en línea. Incluye un formulario de contacto para atención personalizada y gestión de consultas.",
       image: "/theater.png",
-      tags: ["React", "NextJS", "Tailwind"],
+      tags: ["React", "NextJS", "TailwindCSS"],
       githubUrl: "https://github.com/ItsChavesCR/una-theater",
       liveUrl: "https://una-theater.vercel.app/",
     },
