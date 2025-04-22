@@ -10,15 +10,13 @@ import Highlights from "@/components/highlights";
 import { ThemeToggle } from "@/components/theme-toggle";
 import ContactForm from "@/components/contact-form";
 import { Button } from "@/components/ui/button";
-
-
+import MobileMenu from "@/components/mobile-menu";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900 text-slate-800 dark:text-slate-100">
       {/* Header/Navigation */}
       <header className="container mx-auto py-6 px-4">
-        
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Image
@@ -74,7 +72,11 @@ export default function Home() {
 
           <div className="flex items-center gap-3">
             <ThemeToggle />
-            <Link href="https://github.com/ItsChavesCR" target="_blank" aria-label="GitHub">
+            <Link
+              href="https://github.com/ItsChavesCR"
+              target="_blank"
+              aria-label="GitHub"
+            >
               <Github className="w-5 h-5 text-slate-700 dark:text-slate-200 hover:text-teal-600 dark:hover:text-teal-400 transition-colors" />
             </Link>
             <Link
@@ -88,13 +90,8 @@ export default function Home() {
         </div>
 
         {/* Mobile Menu Button - Podría expandirse con un menú móvil completo */}
-        <div className="md:hidden mt-4 flex justify-center">
-          <Button
-            variant="outline"
-            className="w-full border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300"
-          >
-            Menú
-          </Button>
+        <div className="mt-4">
+          <MobileMenu />
         </div>
       </header>
 
@@ -208,7 +205,7 @@ export default function Home() {
                   <div className="flex items-center">
                     <Linkedin className="w-5 h-5 text-teal-600 dark:text-teal-400 mr-3" />
                     <span className="text-slate-700 dark:text-slate-300">
-                    linkedin.com/aaron-chaves-baltodano
+                      linkedin.com/aaron-chaves-baltodano
                     </span>
                   </div>
                   <div className="flex items-center">
@@ -231,7 +228,11 @@ export default function Home() {
       <footer className="bg-gray-100 dark:bg-slate-950 py-8">
         <div className="container mx-auto px-4 text-center">
           <div className="flex justify-center gap-6 mb-6">
-            <Link href="https://github.com/ItsChavesCR" target="_blank" aria-label="GitHub">
+            <Link
+              href="https://github.com/ItsChavesCR"
+              target="_blank"
+              aria-label="GitHub"
+            >
               <Github className="w-6 h-6 text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors" />
             </Link>
             <Link
