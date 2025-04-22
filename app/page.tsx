@@ -36,37 +36,37 @@ export default function Home() {
               href="#home"
               className="text-slate-700 dark:text-slate-200 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
             >
-              Home
+              Inicio
             </Link>
             <Link
               href="#about"
               className="text-slate-700 dark:text-slate-200 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
             >
-              About
+              Sobre Mí
             </Link>
             <Link
               href="#projects"
               className="text-slate-700 dark:text-slate-200 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
             >
-              Projects
+              Proyectos
             </Link>
             <Link
               href="#experience"
               className="text-slate-700 dark:text-slate-200 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
             >
-              Experience
+              Experiencia
             </Link>
             <Link
               href="#skills"
               className="text-slate-700 dark:text-slate-200 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
             >
-              Skills
+              Habilidades
             </Link>
             <Link
               href="#contact"
               className="text-slate-700 dark:text-slate-200 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
             >
-              Contact
+              Contacto
             </Link>
           </nav>
 
