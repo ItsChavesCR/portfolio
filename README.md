@@ -26,7 +26,7 @@ Este proyecto fue construido utilizando las siguientes tecnologías:
 Si deseas ponerte en contacto conmigo:
 
 - **Email:** achaba03x@gmail.com  
-- **LinkedIn:** Aaron Chaves Baltodano  
+- **LinkedIn:** [Aaron Chaves Baltodano](https://www.linkedin.com/in/aaron-chaves-baltodano-47695a2bb/)  
 - **GitHub:** [ItsChavesCR](https://github.com/ItsChavesCR)  
 
 ---
