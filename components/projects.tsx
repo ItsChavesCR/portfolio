@@ -16,12 +16,12 @@ export default function Projects() {
       liveUrl: "https://www.cacpj.online/",
     },
     {
-      title: "UNA Theater",
+      title: "Innovacion y Conocimiento",
       description:
-        "Plataforma para reservas de funciones teatrales que permite a los usuarios explorar obras, seleccionar asientos y reservar en línea. Incluye un formulario de contacto para atención personalizada y gestión de consultas.",
-      image: "/theater.png",
-      tags: ["React", "NextJS", "TailwindCSS"],
-      githubUrl: "https://github.com/ItsChavesCR/una-theater",
+        "El proyecto consiste en el diseño e implementación de una base de datos para una universidad ficticia llamada Universidad Innovación y Conocimiento. La base de datos tiene como objetivo gestionar la información académica y administrativa de la universidad, incluyendo datos de estudiantes, cursos, inscripciones, calificaciones, recursos académicos y reportes estadísticos.",
+      image: "/co.jpg",
+      tags: ["React", "NextJS", "TailwindCSS", "React Query"],
+      githubUrl: "https://github.com/JosePabloSG/Universidad-Innovacion-y-Conocimiento",
       liveUrl: "https://una-theater.vercel.app/",
     },
     {

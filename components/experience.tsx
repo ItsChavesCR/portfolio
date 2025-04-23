@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge"
 export default function Experience() {
   const experiences = [
     {
-      position: "Full Stack Developer ",
+      position: "Desarrollador Full Stack",
       company: "Centro Agrícola Cantonal de Puntarenas.",
       period: "2024 - Presente",
       description:
